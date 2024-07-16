@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Folha de estilo de CSS Linkado -->
+    <link href="/css/reset.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <title>Pokestore</title>
+    <!-- <link rel="icon" type="image/x-icon" href="/assets/vector1.png"> -->
+</head>
+<body>
+    <header>
+        <p>POKE STORE</p>
+    </header>
+    <main>
+        <section class="meus_produtos">
+            <div class="section_title">
+                <h2>MEUS PRODUTOS:</h2>
+            </div>
+            <div class="meus_produtos__conteudo" data-lista>
+                <!-- cards -->
+               
+
+            </div>
+
+        </section>
+
+        <section class="add_produto">
+            <div class="section_title">
+                <h2>ADICIONAR PRODUTO:</h2>
+            </div>
+            <div class="add_produto__conteudo">
+                <form class="formproduto__form" data-formulario>
+                    <input class="formproduto__input" type="text" id="nome" placeholder="Nome" data-nome>
+                    <input class="formproduto__input" type="text" id="valor" placeholder="Valor" data-preco>
+                    <input class="formproduto__input" type="text" id="imagem" placeholder="Imagem" data-imagem>
+                    <div class="botoes">
+                        <button class="formproduto__botao" id="guardar" submit >Guardar</button>
+                        <button class="formproduto__botao" id="limpar" type="submit">Limpar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Pokestore</p>
+        <p>Desenvolvido por Ingrid Oguro</p>
+        <p>Alura Latam - 2024</p>
+    </footer>
+    <script src="/js/mostrarProdutos.js" type="module"></script>
+</body>
+</html>

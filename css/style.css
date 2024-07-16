@@ -1,0 +1,213 @@
+:root{
+    --primaria: #d45be4;
+    --secundaria: #ffffff;
+    --hover: rgb(120, 236, 236);
+}
+
+*{
+    font-family:monospace;
+}
+
+/* Topbar */
+header{
+    background-color:purple;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+/* Principal */
+main{
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: row;
+    padding: 2vh 2vw;
+    justify-content: center;
+}
+
+main > * {
+    margin: 1vh 1vw;
+    padding: 1vh 1vw;
+}
+
+.section_title{
+    background-color: var(--primaria);
+    color: var(--secundaria);
+    text-align: center;
+}
+
+/* MEU PRODUTOS */
+
+section.meus_produtos{
+    background-color:var(--hover);
+
+}
+
+.meus_produtos__conteudo{
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1vw;
+    height: 80vh;
+    overflow: scroll;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    max-width: 42vw;
+}
+
+.card{
+    background-color: violet;
+    margin: 1vh 1vw;
+    padding: 1vh 1vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    max-width: 150px;
+}
+
+.produto_img{
+    width: 100%;
+    
+}
+
+.card__info{
+    background-color: white;
+    border-radius: 5px;
+    padding: 1vh 1vw;
+    font-size: small;
+    width: 100%;
+}
+
+.value{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1vh 1vw;
+    font-size: medium;
+    gap: 1vw;
+}
+
+.deletar {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+.deletar:hover{
+    background-color: var(--primaria);
+    border-radius: 90px;
+}
+
+.del_icon{
+    height: 2vh;
+}
+
+/* ADD PRODUTOS */
+
+section.add_produto{
+    background-color: var(--hover);
+    width: 35vw;
+}
+
+
+.formproduto__form{
+    padding: 2vh 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    background-color: var(--secundaria);
+}
+
+.formproduto__input{
+    border: none;
+    padding: 1vh 1vw;
+    height: 7vh;
+    margin: 1vh 0;
+    border-radius: 5px;
+    background-color: violet;
+    color: var(--secundaria);
+}
+
+.formproduto__input::placeholder{
+    color: var(--secundaria);
+}
+
+.formproduto__botao{
+    padding: 2vh 2vw;
+    height: 7vh;
+    width: 45%;
+    border-radius: 5px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-around;
+}
+
+#guardar{
+    background-color: rgb(81, 198, 198);
+    border: 2px solid rgb(81, 198, 198);
+    color: aliceblue;
+}
+
+#limpar{
+    background-color: white;
+    border: 2px solid rgb(81, 198, 198);
+    color: rgb(81, 198, 198);
+}
+
+#guardar:hover,#limpar:hover{
+    background-color: var(--primaria);
+}
+
+footer{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    padding: 2vh 0;
+    font-size: small;
+}
+
+@media(max-width: 768px) {
+/* .card{
+    background-color: rgb(170, 25, 25); 
+    width: 30vw;
+} */
+
+main{
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 2vh 2vw;
+    justify-content: center;
+}
+
+section.meus_produtos__conteudo{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.meus_produtos__conteudo{
+    /* background-color: rgb(216, 216, 181); */
+    padding: 0 5vw;
+    max-width: 100%;
+}
+
+
+section.add_produto{
+    width: 90vw;
+}
+
+}

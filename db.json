@@ -1,0 +1,57 @@
+{
+  "produtos": [
+    {
+      "nome": "Poké Ball",
+      "preco": "10",
+      "imagem": "https://www.serebii.net/itemdex/sprites/pokeball.png",
+      "id": "1"
+    },
+    {
+        "nome": "Great Ball",
+        "preco": "10",
+        "imagem": "https://www.serebii.net/itemdex/sprites/greatball.png",
+        "id": "1"
+    },
+    {
+        "nome": "Master Ball",
+        "preco": "10",
+        "imagem": "https://www.serebii.net/itemdex/sprites/masterball.png",
+        "id": "1"},
+    {
+      "nome": "Antidote",
+      "preco": "10",
+      "imagem": "https://www.serebii.net/itemdex/sprites/antidote.png",
+      "id": "2"
+    },
+    {
+        "nome": "Awakening",
+        "preco": "10",
+        "imagem": "https://www.serebii.net/itemdex/sprites/awakening.png",
+        "id": "2"
+      },
+      {
+        "nome": "Elixir",
+        "preco": "10",
+        "imagem": "https://www.serebii.net/itemdex/sprites/elixir.png",
+        "id": "2"
+      },
+    {
+      "nome": "Aguav Berry",
+      "preco": "10",
+      "imagem": "https://www.serebii.net/itemdex/sprites/aguavberry.png",
+      "id": "3"
+    },
+    {
+        "nome": "Bluk Berry",
+        "preco": "10",
+        "imagem": "https://www.serebii.net/itemdex/sprites/blukberry.png",
+        "id": "3"
+      },
+      {
+        "nome": "Cheri Berry",
+        "preco": "10",
+        "imagem": "https://www.serebii.net/itemdex/sprites/cheriberry.png",
+        "id": "3"
+      }
+  ]
+}
